@@ -1,0 +1,245 @@
+/* Import das fontes do google */
+
+<link href="https://fonts.googleapis.com/css?family=Adamina|Bevan|Doppio+One|Cormorant+Garamond" rel="stylesheet">
+
+font-family: 'Bevan', cursive;
+font-family: 'Adamina', serif;
+font-family: 'Doppio One', sans-serif;
+font-family: 'Cormorant Garamond, sans-serif'
+
+
+*{
+
+}
+
+
+html, body, .capa
+{
+	height: 100%;
+}
+
+
+body
+{
+	background: url('../img/capa.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+footer
+{
+	text-align: center;
+	margin-top: 3rem;
+	background: rgba(75, 75, 75, 0.6);
+	color: white;
+}
+
+
+/* Barra de navegação */
+
+nav.navbar-transparente
+{
+	padding: 15px 0px;
+	background: rgba(255, 255, 255, 0.3);
+	border: none;
+}
+
+#barra-navegacao a
+{
+	color: black;
+	font-size: 2rem;
+}
+
+#barra-navegacao a:hover
+{
+	color: white;
+}
+
+
+.img-logo
+{
+	height: 40px;
+	width: 132px;
+	display: block;
+	background: url('../img/logo.jpg');
+	background-size: contain;
+	color: transparent;
+}
+
+
+.rodacapa
+{
+	color: white;
+	font-size: 2rem;
+	text-align: center;
+	margin-top: -100px;
+}
+
+.docperson
+{
+	color: white;
+	font-size: 4rem;
+	text-align: center;
+	margin-top: -40px;
+}
+
+.personcoteudo
+{
+	font-size: 1.7rem;
+	text-align: center;
+	color: white;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+.roda
+{
+	width: 100%;
+	margin-top: 1rem;
+}
+
+/* Fim Barra de Navegação */
+
+/* <=====================================================>*/
+
+/* Inicio Imagem Capa */
+
+.capa
+{
+	display: table;
+	width: 100%;
+	height: 45%;
+}
+
+.texto-capa
+{
+	text-align: center;
+	font-size: 10rem;
+	color: #2b27c7;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.imgcapa
+{
+	padding: 10px auto;
+	margin: 110px auto;
+	width: 100%;
+	height: 25rem;
+}
+
+/* Fim Imagem Capa */
+
+
+#canal
+{
+	background: black;
+	color: #4c0fa0;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.canais
+{
+	width: 45%;
+	height: 100%;
+	padding: 10px 10px 10px 60px;
+}
+
+#contato
+{
+	background: none;
+	color: black;
+	margin-top: 2rem;
+}
+
+
+#sobre
+{
+	padding-top: 90px;
+	background: rgba(75, 75, 75, 0.6);
+}
+
+.lista
+{
+	background: none;
+	border: none;
+	color: white;
+	font-size: 1.5rem;
+}
+
+
+/* <===============Tipografia===============> */
+
+
+.titulos
+{
+	font-family: 'Bevan' , cursive;
+	font-size: 5rem;
+	text-align: center;
+	margin-bottom: 7rem;
+}
+
+h2
+{
+	font-size: 2rem;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	color: white;
+	margin: 5px;
+	padding: 5px;
+}
+
+#canal h3
+{
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	color: white;
+}
+
+#canal h3:hover
+{
+	font-size: 35px;
+	font-weight: 900;
+	letter-spacing: -0.04em;
+	color: #4c0fa0;
+}
+
+#canal p
+{
+	color: #a8a4ad;
+}
+
+
+/*
+#sobre h2
+{
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	color: #4c0fa0;
+}
+
+#sobre h2:hover
+{
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	color: white;
+}*/
+  
+#contato h3
+{
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	color: black;
+}
+
+#contato h3:hover
+{
+	font-size: 35px;
+	font-weight: 900;
+	letter-spacing: -0.04em;
+	color: white;
+}

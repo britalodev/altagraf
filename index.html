@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Altagraf</title>
+    <link rel="icon" href="favicon.ico">
+
+    <!-- Bootstrap -->
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- Inicio Navegação -->
+
+    <nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente">
+      <div class="container">
+        
+        <!-- Header Navegação -->
+
+        <!-- Botão Toggle -->
+
+        <button type="button" class="navbar-toggle collpased" data-toggle="collapse" data-target="#barra-navegacao">
+          <span class="sr-only"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <div class="navbar-header">
+          <a href="#home" class="navbar-brand">
+            <span class="img-logo">Altagraf</span>
+          </a>
+        </div>
+
+        <!-- /Header Navegação -->
+
+        <!-- Navegação -->
+
+        <div class="collapse navbar-collapse" id="barra-navegacao">
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="#home">Página Inicial</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#contato">Contato</a></li>
+          </ul>
+          
+        </div>
+
+      </div>      
+    </nav>
+
+    <!-- Inicio Capa 
+
+    <div class="container">
+
+      <div class="capa" id="home">
+        <div class="row">
+          <div class="col-md-12">
+            <img src="img/boleto-lupa.jpg" class="img-responsive imgcapa">
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
+      
+    <div id="home">         
+      <div class="row">
+        <div class="container">
+          <div class="col-md-3">
+            <img src="img/logoaltagraf.jpg" class="img-responsive imgcapa">
+          </div>
+          <div class="col-md-9">
+            <img src="img/boleto-lupa.jpg" class="img-responsive imgcapa">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="container">
+          <div class="col-md-12">
+            <p class="rodacapa">IMPRESSÃO A LASER  •  AUTOENVELOPAMENTO  •  MANUSEIO  •  ASSESSORIA POSTAL  •  MONTAGEM DE KITS</p>
+          </div>  
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="container">
+          <div class="col-md-12">
+            <h2 class="docperson">
+              DOCUMENTOS PERSONALIZADOS
+            </h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="container">
+          <div class="col-md-12">
+            <p class="personcoteudo">
+              Atuamos no recebimento dos arquivos em diversos formatos, a partir daí é feito o desenvolvimento de sistemas personalizados de acordo com cada cliente a fim de produzir, autoenvelopar, fazer todo o acabamento necessário, e se o cliente optar, ainda fornecemos assessoria na postagem de seus documentos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+      
+    <div class="container">
+
+      <section id="sobre">
+        <div class="row">
+          <div class="container">
+            <div class="col-md-12">
+
+              <h2>Desenvolvemos e executamos operações de criação de Documentos com dados variáveis em laser, tais como:</h2>
+
+              <ul class="list-group">
+                <li class="list-group-item lista">• Boletos Bancários</li>
+                <li class="list-group-item lista">• Extratos Previdenciários</li>
+                <li class="list-group-item lista">• Contracheques</li>
+                <li class="list-group-item lista">• Notificações de Trânsito</li>
+                <li class="list-group-item lista">• Mala direta eleitoral</li>                
+                <li class="list-group-item lista">• Cartas Informativas</li>
+                <li class="list-group-item lista">• Carnês de Anuidade</li>
+                <li class="list-group-item lista">• Documentos personalizados em geral</li>
+              </ul>                          
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <h3><span class="tag tag-success">Fale Conosco</span></h3>            
+            <form>
+
+              <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" class="form-control" id="nome" required="" placeholder="Digite seu nome">
+              </div>
+
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" class="form-control" id="email" required="" placeholder="Ex: exemplo@.exemplo.com">
+              </div>
+
+              <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea type="text" class="form-control" id="mensagem" required=""></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Enviar</button>           
+
+            </form>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.9081806505983!2d-46.53937828493422!3d-23.67924137184129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce42425cf5f4ff%3A0x49b8231f468430ec!2sR.+Itaquera%2C+443+-+Vila+Apiai%2C+Santo+Andr%C3%A9+-+SP%2C+09185-690!5e0!3m2!1spt-BR!2sbr!4v1509073480041" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <img src="img/tiraimpressao.jpg" class="roda">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+
+  <footer>
+    <div class="container">
+      <p>Rua Itaquera, 443, Cj 06/07, Vila Apiaí, Santo André, SP 09185-690, Brasil | 11 2774-9449</p>
+    </div>
+  </footer>
+
+</html>
